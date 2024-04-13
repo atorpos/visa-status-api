@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\""
   },
   "keywords": [],
   "author": "",
@@ -12,5 +13,9 @@
   "dependencies": {
     "express": "^4.19.2",
     "mysql2": "^3.9.3"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "nodemon": "^3.1.0"
   }
 }

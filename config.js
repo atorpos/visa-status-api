@@ -4,7 +4,7 @@ const config = {
         password: '123456',
         user: 'root',
         database: 'mydb',
-        connectTimeout: 3000,
+        connectTimeout: 30000,
     },
     listPerPage: 5,
 };

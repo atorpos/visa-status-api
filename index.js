@@ -1,12 +1,11 @@
 const express = require('express');
-const app = require("express/lib/application");
-const console = require("node:console");
 const app = express();
+const console = require("node:console");
 const port = 3000;
 const finalapirouter = require("./routes/finalapi");
 
 app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({extended: true}));
 
 app.get("/", (req, res) => {
     res.json({message: "ok"});
