@@ -22,4 +22,4 @@ EXPOSE 3000
 
 CMD ["node", "index.js"]
 
-ENTRYPOINT ["top", "-b"]
+#ENTRYPOINT ["top", "-b"]

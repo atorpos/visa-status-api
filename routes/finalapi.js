@@ -2,14 +2,9 @@ const express = require('express');
 const router = express.Router();
 const finalapi = require('../services/finalapi');
 const res = require("express/lib/response");
-const finalapi = require("../services/finalapi");
-const req = require("express/lib/request");
 const req = require("express/lib/request");
 const console = require("node:console");
 const e = require("express");
-const e = require("express");
-const res = require("express/lib/response");
-const req = require("express/lib/request");
 
 router.get('/', async function(req, res, next) {
     try {
