@@ -4,7 +4,7 @@ const config = require("../config");
 
 async function getMultiple(page = 1) {
     const offset = helper.getOffset(page, config.listPerPage);
-    const rows = await db.query(`Select * from visa_container order by id desc LIMIT ${offset}, ${config.listPerPage}`);
+    const rows = await db.query(`Select * from eb5table order by id desc LIMIT ${offset}, ${config.listPerPage}`);
 
     const data = helper.emptyOrRows(rows);
     const meta = {page};
